@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reservations</title>
+    <link rel="stylesheet" type="text/css" href="CSS/ReservationPage.css"> 
+    
+  </head>
+<body>
+    <section>
+    <div class="header">
+        <div id="nav">
+        <a class="navButton" href="../index.html" >HOME</a>   
+        <a class="navButton" href="menu.html">MENU</a>
+        <a style="background-color:#fff; border-radius:11px; color: black;" class="navButton" href="ReservationPage.html">RESERVATIONS</a>   
+        <a class="navButton" href="aboutUs.html">ABOUT US</a>
+        <a class="navButton" href="">LOCATIONS</a>   
+      </div>
+    </div>
+
+    
+    <div class="Loki">
+      <form action="/">
+        <div class="start"><legend>MAKE A RESERVATION</legend></div>
+        <div class="item">
+          <p>First Name</p>
+          <div class="name-item">
+            <input type="text" name="name" required />
+             <p>Last Name</p>
+          <input type="text" name="name" />
+          </div>
+        </div>
+        <div class="item">
+          <p>Email</p>
+          <input type="email" name="email"required placeholder="email@address.com"/>
+        </div>
+        <div class="item">
+          <p>Phone</p>
+          <input type="text" name="phone" placeholder="### ### ####" required/>
+        </div>
+        <div class="item">
+          <p>Reservation Date</p>
+          <input type="date" name="bdate" required />
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+   <div class="item">
+          <p>Reservation Time</p>
+          <input type="time" name="btime" required min="11:30" value="17:00" max="22:00" />
+               </div>
+        <div class="item">
+          <p>No. of guests?</p>
+          <input type="number" name="language" max="15" />
+        </div>
+         <div class="item">
+          <p>Special Request</p>
+          <textarea rows="3"></textarea>
+        </div>
+         <div class="btn-block">
+          <button type="submit" href="/">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+
+</body>
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">The Bannered Mare </h1><br>
+    <li><a href="#"><img class="logo" src="../Images/facebookLogo.png" width="40px"></a><a href="#"><img class="logo" src="../Images/twitterLogo.png" width="40px"></a></li>
+        <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+    </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">LOCATIONS</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <em>Winter Park</em><br>1000 Holt Ave<br>Orlando, FL - 32789<br>(786) 123-4321
+        </li>
+        <li><br></li>
+        </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li><br></li>
+        <li>
+          <em>Dr. Phillips</em><br>7640 W Sand Lake<br>Orlando, FL - 32819 <br>(786) 4321-123
+        </li>
+        <li>
+          <br>
+        </li>
+        
+        <li>
+          <br>
+        </li>
+      </ul>
+    </li>
+        
+    
+    <li class="nav__item">
+      <h2 class="nav__title">HOURS</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <em>Monday - Thursday</em><br>11am - 11pm
+        </li>
+        
+        <li>
+          <em>Friday - Sunday</em><br>11am - 12am
+        </li>
+        
+        
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p>&copy; 2021 The Bannered Mare. All rights reserved.</p>
+    
+  </div>
+</footer>
+
+    </html>
+  
